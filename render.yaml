@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: bot-whatsapp
+    env: node
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm start"
+    envVars:
+      - key: MONGO_DB_URI
+        value: ${MONGO_DB_URI}
+      # Adicione outras variáveis de ambiente aqui se necessário.
+    deploy:
+      commands:
+        - apt-get update -y
+        - apt-get install -y ffmpeg  # Comando para instalar o FFmpeg
