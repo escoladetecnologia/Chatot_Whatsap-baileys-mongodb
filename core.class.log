@@ -1,0 +1,95 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5511985560271@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E8EFC39E13C03B1E48',
+    participant: undefined
+  },
+  messageTimestamp: 1731634984,
+  pushName: 'Claudio M. Antonio',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'hola',
+  from: '5511985560271'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7e482730-cd53-45c1-8230-e21f341fee33',
+  keyword: 'key_2ef6bfe4-10e8-4986-ab31-5ecfe5a681f2',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a1f8da731369e223ad28b96a03e99fae'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b90d62e8-3f39-4826-bed8-1e2be6753f1f',
+  keyword: 'ans_7e482730-cd53-45c1-8230-e21f341fee33',
+  answer: 'te comparto los siguientes links de interés sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '991986264e1fc26ca8f7c0ecd0293d1d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5511985560271@s.whatsapp.net',
+    fromMe: false,
+    id: 'B37C7B5A7965503F081118A691184A2B',
+    participant: undefined
+  },
+  messageTimestamp: 1731634986,
+  pushName: 'Claudio M. Antonio',
+  broadcast: false,
+  message: Message {
+    protocolMessage: ProtocolMessage {
+      key: [MessageKey],
+      type: 4,
+      ephemeralExpiration: 604800,
+      ephemeralSettingTimestamp: [Long],
+      disappearingMode: [DisappearingMode]
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '',
+  from: '5511985560271'
+}
