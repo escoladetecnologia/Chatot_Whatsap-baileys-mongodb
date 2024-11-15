@@ -1,8 +1,8 @@
 FROM node:18-bullseye as bot
-RUN apt-get update -y && \
-    apt-get install -y ffmpeg
 
-WORKDIR /app
+# Instale o FFmpeg
+RUN apk update && apk add ffmpeg
+RUN npm install
 WORKDIR /app
 COPY package*.json ./
 RUN npm i
