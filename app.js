@@ -191,7 +191,7 @@ const main = async () => {
         dbName: MONGO_DB_NAME,
     })
 
-    const adapterFlow = createFlow([flowCurso1, flowCurso2, flowCurso3, flowCurso4, flowCurso5, flowOutrasPerguntas, flowSuporte, flowFallback])
+    const adapterFlow = createFlow([flowPrincipal, flowCurso1, flowCurso2, flowCurso3, flowCurso4, flowCurso5, flowOutrasPerguntas, flowSuporte, flowFallback])
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
